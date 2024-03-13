@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Résultats du test</title>
+		<meta charset="UTF-8" ></meta>
+		<meta name="generator" content="SCENARI 6.2.1 / Opale 5.0.5" ></meta>
+		<meta name="revision" content="2023-12-13 00:39" ></meta>
+		<link rel="start" href="module.html" title="Professional Email Writing in English" ></link>
+		<meta name="author" content="" ></meta>
+		<meta name="date" content="" ></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1" ></meta>
+		<link rel="stylesheet" type="text/css" href="../lib-md/w_scCodeMgr/scCodeMgr.css" ></link>
+		<link rel="stylesheet" type="text/css" href="../lib-md/w_tePlayer/tePlayer.css" ></link>
+		<script>/*<![CDATA[*/
+/*0*/ var scServices = {id:"lq31n6gj"};
+/*1*/ window.scLoadParams = {destUri:"/co/activiteEval_2.html", pathToRoot:"../"};
+/*]]>*/</script>
+		<script src="../lib-sc/scCoLib.js" ></script>
+		<script src="../lib-sc/scSiLib.js" ></script>
+		<script src="../lib-sc/scTiLib.js" ></script>
+		<script src="../lib-sc/scPaLib.js" ></script>
+		<script src="../lib-sc/scMapMgr.js" ></script>
+		<script src="../lib-sc/scTooltipMgr.js" ></script>
+		<script src="../lib-sc/scDynUiMgr.js" ></script>
+		<script src="../lib-md/s_assmnt.js" ></script>
+		<script src="../lib-sc/scDragMgr.js" ></script>
+		<script src="../lib-sc/scAssmntMgr.js" ></script>
+		<script src="../lib-md/w_tplMgr/tplMgr.js" ></script>
+		<script src="../lib-md/w_mathjax/mathjaxMgr.js" ></script>
+		<script src="../lib-md/s_scSearch/scSearch.js" ></script>
+		<script src="../lib-md/w_teMgr/teLoader.js" ></script>
+		<script src="../lib-md/w_tePlayer/tePlayer.js" ></script>
+		<script src="../lib-md/w_scCodeMgr/scCodeMgr.js" ></script>
+		<script src="../lib-md/w_scImageMgr/scImageMgr.js" ></script>
+		<script>/*<![CDATA[*/
+/*0*/ try{if(window.opener && window.opener.scServices && window.opener.scServices.id == scServices.id) scServices = window.opener.scServices; else if(window.parent && window.parent.scServices && window.parent.scServices.id == scServices.id) scServices = window.parent.scServices;}catch(e){}
+scCodeMgr.registerCode("des:div.code");
+
+scImageMgr.registerAdaptedImage("ide:content/des:figure/des:img");
+
+scImageMgr.registerGallery("des:div.galFra");
+
+scImageMgr.registerSequence("des:div.seqFra");
+
+scImageMgr.registerSvg("des:svg");
+scImageMgr.registerZoom("des:a.svgZoom",{type:"svg",svgMax:1,toolbar:1,titlePath:"par:/nsi:/des:span.capTi"});
+
+scImageMgr.registerZoom("des:a.imgZoom",{toolbar:1,mag:1,titlePath:"par:/nsi:/des:span.capTi"});
+
+tePlayerMgr.init();
+/*]]>*/</script>
+		<meta name="robots" content="index,follow" ></meta>
+		<link type="text/css" rel="stylesheet" href="../skin/css/main.css" media="all" ></link>
+		<link type="text/css" rel="stylesheet" href="../skin/css/skin.css" media="all" ></link>
+		<link type="text/css" rel="stylesheet" href="../skin/css/print.css" media="print" ></link>
+		<script>/*<![CDATA[*/try{
+	if(window.frameElement.setSubWindowTitle) window.frameElement.setSubWindowTitle(document.title);
+}catch(e){}
+/*]]>*/</script>
+		<script>/*<![CDATA[*/scDynUiMgr.subWindow.fOpt={OVERRIDE:true,IMBR:true,CLOSEBTNTI:'Fermer'};/*]]>*/</script></head>
+	<body class="subWin eval resultPage">
+		<div id="root"><header id="header"><nav role="navigation"><ul id="accessibility"><li class="waiContent"><a href="#content"><span>contenu</span></a></li><li class="waiNav"><a href="#navigation"><span>navigation</span></a></li></ul></nav></header><main id="main" role="main"><div id="document"><div id="content" tabindex="-1"><div class="scroller"><hr class="hidden" ></hr><script type="text/JavaScript">/*<![CDATA[*/
+var or66RKx42xfM6aqCdTjTPf_Ascore = {
+
+	fId : "or66RKx42xfM6aqCdTjTPf",
+	fCurSeq : null,
+	initSeq : function(pCodeSeq){
+	try {
+		if(pCodeSeq==null) return;
+		if(this.fCurSeq!=null) this.closeSeq();
+		this.fCurSeq = pCodeSeq;
+		switch(this.fCurSeq) {
+
+		case "" : {
+		var vForm = document.forms.or66RKx42xfM6aqCdTjTPf_Ascore_form;
+		this._Sol = {_:null};
+		this.getSolIdx = function(pFieldIndex){
+			var vF = this._Sol[pFieldIndex];
+			var vVal = vForm[pFieldIndex].value;
+			for (var i = 0; i < vF.s.length-1; i++) if(vF.s[i].isMatch(vVal)) return i;
+			return -1;
+		};
+		this.getFieldScore = function(pFieldIndex) {
+			var vI = this.getSolIdx(pFieldIndex);
+			if(vI >= 0) return this._Sol[pFieldIndex].s[vI].score;
+			return 0;
+		};
+		this.refreshResultInput = function(pInput){
+			if(this._resultDisplay == "none") pInput.parentNode.className="";
+			else {
+				var vSol = this._Sol[pInput.name];
+				var vRes = Math.round((this.getFieldScore(pInput.name) - vSol.min) / (vSol.max - vSol.min) * 1);
+				pInput.parentNode.className= "assmntResult_" + vRes;
+			}
+		};
+var vLoadRespSession = "eval";
+
+		for (var i=0; i < vForm.length; i++) {
+			var vFi = vForm.elements[i];
+			if (vFi.name) {
+				this.setInteraction(vFi, "");
+				vFi.value = vLoadRespSession == null ? "" : scServices.assmntMgr.getResponse(this.fId, vLoadRespSession, vFi.name) || "";
+			}
+		}
+	this.refreshResult("");
+
+
+		this.setSolution('', '');
+this.setResp = function(pInput) {
+			this.computeScore();
+			scServices.assmntMgr.commit();
+			this.refreshResultInput(pInput);
+		}	
+
+		this.computeScore = function() {
+
+			this.fMinPts = 0;
+			this.fMaxPts = 0;
+			for(var vF in this._Sol) if(vF!="_") {this.fMinPts += this._Sol[vF].min; this.fMaxPts += this._Sol[vF].max;}
+			this.fScorePts = 0;
+
+				this.fScorePts = 0 + (this.fScorePts-this.fMinPts) / (this.fMaxPts-this.fMinPts) * (1 - 0); 
+
+			this.fMinPts = 0;
+
+			this.fMaxPts = 1;
+
+			//alert("score:::::"+this.fMinPts+" - "+this.fScorePts+" - "+this.fMaxPts);
+var vScoreSession = "eval";
+			if(this.fScorePts != null) scServices.assmntMgr.setPts(this.fId, vScoreSession, this.fMinPts, this.fScorePts, this.fMaxPts);
+
+			this.refreshScoresFeedbacks();
+		}
+
+this.computeScore();
+
+		scServices.assmntMgr.commit();
+		break;
+	}
+
+		}
+	}catch(e){alert("failed:::"+e)};
+	},
+
+	closeSeq: function(){
+		var vForm = document.forms.or66RKx42xfM6aqCdTjTPf_Ascore_form;
+		switch(this.fCurSeq) {
+
+	case "" : {
+
+		break;
+	}
+
+		}
+		this.fCurSeq = null;
+	},
+	getOnLoadSeq:function() {
+
+	return "";
+	},
+
+	refreshScoresFeedbacks : function(){
+		
+
+	},
+	setSolution : function(pIfRight, pIfNotBest){
+		for(var vF in this._Sol) if(vF != "_") scAssmntMgr.setMode(sc$("or66RKx42xfM6aqCdTjTPf_Ascore_X_"+vF), this.getSolIdx(vF)==0 ? pIfRight || "collapsed" : pIfNotBest || "collapsed");
+	},
+	setInteraction : function(pElt, pMode){
+		if(!pElt) return;
+		switch(pMode) {
+		case "collapsed" :
+			pElt.style.display = "none";
+			if("scSiLib" in window) scSiLib.fireResizedNode(pElt);
+			break;
+		case "invisible" :
+			pElt.style.display = "";
+			pElt.style.visibility = "hidden";
+			if("scSiLib" in window) scSiLib.fireResizedNode(pElt);
+			break;
+		case "enabled" : 
+		case "disabled" : 
+			pElt.disabled = (pMode=="disabled");
+		default :
+			pElt.style.display = "";
+			pElt.style.visibility = "visible";
+			if("scSiLib" in window) scSiLib.fireResizedNode(pElt);
+		}
+	},
+	refreshResult : function(pMode){
+		this._resultDisplay = pMode || "none";
+		var vForm = document.forms.or66RKx42xfM6aqCdTjTPf_Ascore_form;
+		for (var i=0; i < vForm.length; i++) { var vFi = vForm.elements[i]; if (vFi.name) this.refreshResultInput(vFi);}
+
+	},
+	onLoad: function(){
+		if (!String.prototype.trim) {String.prototype.trim = function () {return this.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '');};}	
+
+		this.initSeq(this.getOnLoadSeq());
+		scAssmntMgr.setMode(sc$("or66RKx42xfM6aqCdTjTPf_Ascore_A"));
+
+	},
+	onUnload: function(){
+		this.closeSeq();
+	},
+	loadSortKey: "A",
+	unloadSortKey: "A"
+};
+
+scOnLoads[scOnLoads.length] = or66RKx42xfM6aqCdTjTPf_Ascore;
+scOnUnloads[scOnUnloads.length] = or66RKx42xfM6aqCdTjTPf_Ascore;
+/*]]>*/</script><div id="or66RKx42xfM6aqCdTjTPf_Ascore_A" style="display:none;"><div style="display: none;"><form action="javascript:void(0);" name="or66RKx42xfM6aqCdTjTPf_Ascore_form" id="or66RKx42xfM6aqCdTjTPf_Ascore_form" autocomplete="off">To: b.clever@mymailbox.comFrom: h.genius@wonderwork.co.uk Re.: Job opportunity …………… Mr. Clever,………………………………. your CV posted on greatjobs.com, we are  ………………………………. to inform you that we have an excellent job opportunity for you to work as a purchasing assistant in our organisation. If you are interested in this position, …………..…………………….……… you could send me your availabilities by return mail for a job interview that would take place between the 10th and 15th of February. If these dates are not convenient, …………………..……..  contact me immediately to reschedule.…………………..……..…………………..……..  the job description. …………………..……..  details about our organisation,  …………………..……..   visit our website at www.wonderwork.co.uk. ………………………………………………………………………… .………………………………. H. GeniusHR ManagerWonderwork Ltd.0774 098 6543</form></div></div><script type="text/JavaScript">/*<![CDATA[*/
+var Kiw1UftSFokRCYTOrkKzX_Ascore = {
+
+	fId : "Kiw1UftSFokRCYTOrkKzX",
+	fCurSeq : null,
+	initSeq : function(pCodeSeq){
+	try {
+		if(pCodeSeq==null) return;
+		if(this.fCurSeq!=null) this.closeSeq();
+		this.fCurSeq = pCodeSeq;
+		switch(this.fCurSeq) {
+
+		case "" : {
+		var vForm = document.forms.Kiw1UftSFokRCYTOrkKzX_Ascore_form;
+		for (var i=0; i < vForm.Kiw1UftSFokRCYTOrkKzX_Ascore_input.length; i++) {
+			vForm.Kiw1UftSFokRCYTOrkKzX_Ascore_input[i].disabled = false;
+			vForm.Kiw1UftSFokRCYTOrkKzX_Ascore_input[i].checked = false;
+		}
+
+var vLoadRespSession = "eval";
+var vResp = scServices.assmntMgr.getResponse(this.fId, vLoadRespSession, "choice");
+		if(vResp != null) sc$("Kiw1UftSFokRCYTOrkKzX_Ascore_in"+vResp).checked = true;
+
+		this.setSolution(false);
+this.setResp = function(pInput, pIdx) {
+
+			this.computeScore();
+			scServices.assmntMgr.commit();
+		}	
+
+		this.computeScore = function() {
+
+		this.fMinPts = 0;
+		this.fMaxPts = 1;
+		this.fScorePts = document.forms.Kiw1UftSFokRCYTOrkKzX_Ascore_form.Kiw1UftSFokRCYTOrkKzX_Ascore_input[1].checked ?  this.fMaxPts : this.fMinPts;
+
+		//alert("score:::::"+this.fMinPts+" - "+this.fScorePts+" - "+this.fMaxPts);
+var vScoreSession = "eval";
+		if(this.fScorePts != null) scServices.assmntMgr.setPts(this.fId, vScoreSession, this.fMinPts, this.fScorePts, this.fMaxPts);
+
+			this.refreshScoresFeedbacks();
+		}
+
+this.computeScore();
+
+		scServices.assmntMgr.commit();
+		break;
+	}
+
+		}
+	}catch(e){alert("failed:::"+e)};
+	},
+
+	closeSeq: function(){
+		var vForm = document.forms.Kiw1UftSFokRCYTOrkKzX_Ascore_form;
+		switch(this.fCurSeq) {
+
+	case "" : {
+
+		break;
+	}
+
+		}
+		this.fCurSeq = null;
+	},
+	getOnLoadSeq:function() {
+
+	return "";
+	},
+
+	refreshScoresFeedbacks : function(){
+		
+
+	},
+	solIsShown : false,
+	setSolution : function(pShown){
+		var vTRs = null;
+		var vForm = document.forms.Kiw1UftSFokRCYTOrkKzX_Ascore_form;
+		var vTable = scPaLib.findNode("chi:" ,vForm);
+		if (vTable.nodeName.toLowerCase()=="table") vTRs = scPaLib.findNodes("chi:/chi:tr" ,vTable);
+		else vTRs = scPaLib.findNodes("chi:" ,vTable);
+	
+		if(!pShown && this.solIsShown) {
+			for(var i=0; i<vTRs.length; i++){
+				var vTR = vTRs[i]; 
+				var vOffs = vTR.className.indexOf("assmntSol");
+				if(vOffs>=0) vTR.className = vTR.className.substring(0, vOffs) + vTR.className.substring(vOffs+14);
+
+			}
+		} else if(pShown && ! this.solIsShown) {
+
+			for(var i=0; i<vTRs.length; i++){
+				var vTR = vTRs[i]; 
+				vTR.className = ( i+1 == 2 ? "assmntSolRight " : "assmntSolWrong ") + vTR.className;
+
+			}
+
+		}
+		this.solIsShown = pShown;
+	},
+	onLoad: function(){
+		this.initSeq(this.getOnLoadSeq());
+		scAssmntMgr.setMode(sc$("Kiw1UftSFokRCYTOrkKzX_Ascore_A"));
+	},
+	onUnload: function(){
+		this.closeSeq();
+	},
+	loadSortKey: "A",
+	unloadSortKey: "A"
+};
+
+scOnLoads[scOnLoads.length] = Kiw1UftSFokRCYTOrkKzX_Ascore;
+scOnUnloads[scOnUnloads.length] = Kiw1UftSFokRCYTOrkKzX_Ascore;
+/*]]>*/</script><div id="Kiw1UftSFokRCYTOrkKzX_Ascore_A" style="display:none;"><div style="display: none;"><form action="" name="Kiw1UftSFokRCYTOrkKzX_Ascore_form" id="Kiw1UftSFokRCYTOrkKzX_Ascore_form" autocomplete="off"><ul><li><div><input type="radio" name="Kiw1UftSFokRCYTOrkKzX_Ascore_input" id="Kiw1UftSFokRCYTOrkKzX_Ascore_in0" value="0" onclick="Kiw1UftSFokRCYTOrkKzX_Ascore.setResp(this, 0);" aria-labelledby="Kiw1UftSFokRCYTOrkKzX_Ascore_lbl0" ></input></div><div id="Kiw1UftSFokRCYTOrkKzX_Ascore_lbl0" ></div></li><li><div><input type="radio" name="Kiw1UftSFokRCYTOrkKzX_Ascore_input" id="Kiw1UftSFokRCYTOrkKzX_Ascore_in1" value="1" onclick="Kiw1UftSFokRCYTOrkKzX_Ascore.setResp(this, 1);" aria-labelledby="Kiw1UftSFokRCYTOrkKzX_Ascore_lbl1" ></input></div><div id="Kiw1UftSFokRCYTOrkKzX_Ascore_lbl1" ></div></li><li><div><input type="radio" name="Kiw1UftSFokRCYTOrkKzX_Ascore_input" id="Kiw1UftSFokRCYTOrkKzX_Ascore_in2" value="2" onclick="Kiw1UftSFokRCYTOrkKzX_Ascore.setResp(this, 2);" aria-labelledby="Kiw1UftSFokRCYTOrkKzX_Ascore_lbl2" ></input></div><div id="Kiw1UftSFokRCYTOrkKzX_Ascore_lbl2" ></div></li><li><div><input type="radio" name="Kiw1UftSFokRCYTOrkKzX_Ascore_input" id="Kiw1UftSFokRCYTOrkKzX_Ascore_in3" value="3" onclick="Kiw1UftSFokRCYTOrkKzX_Ascore.setResp(this, 3);" aria-labelledby="Kiw1UftSFokRCYTOrkKzX_Ascore_lbl3" ></input></div><div id="Kiw1UftSFokRCYTOrkKzX_Ascore_lbl3" ></div></li><li><div><input type="radio" name="Kiw1UftSFokRCYTOrkKzX_Ascore_input" id="Kiw1UftSFokRCYTOrkKzX_Ascore_in4" value="4" onclick="Kiw1UftSFokRCYTOrkKzX_Ascore.setResp(this, 4);" aria-labelledby="Kiw1UftSFokRCYTOrkKzX_Ascore_lbl4" ></input></div><div id="Kiw1UftSFokRCYTOrkKzX_Ascore_lbl4" ></div></li></ul></form></div></div><script type="text/JavaScript">/*<![CDATA[*/
+var LCEeieyAuaj5UVLhw7JVVe_AscoreDd = {
+
+	fId : "LCEeieyAuaj5UVLhw7JVVe",
+	fCurSeq : null,
+	initSeq : function(pCodeSeq){
+	try {
+		if(pCodeSeq==null) return;
+		if(this.fCurSeq!=null) this.closeSeq();
+		this.fCurSeq = pCodeSeq;
+		switch(this.fCurSeq) {
+case "" : {
+var vLoadRespSession = "eval";
+
+	this.fResultDisplay = "none";
+
+
+	this.refreshResult = function(pDisplay){
+		if(pDisplay) this.fResultDisplay = pDisplay;
+		if(this.fResultDisplay == "none") for(var i=this.fLabels.length -1; i >=0; i--)  scDragMgr.helpers.delClass(this.fLabels[i],"assmntResult_Right","assmntResult_Wrong");
+		else for(var i=this.fLabels.length -1; i >=0; i--) {
+			var vLabel = this.fLabels[i];
+
+			var vOldClass = (vLabel.sO == vLabel.rO && vLabel.sG == vLabel.rG) ? "assmntResult_Wrong" : "assmntResult_Right";
+			var vNewClass = (vLabel.sO == vLabel.rO && vLabel.sG == vLabel.rG) ? "assmntResult_Right" : "assmntResult_Wrong";
+
+			scDragMgr.helpers.switchClass(vLabel, vOldClass, vNewClass);
+		}
+	};
+		this.computeScore = function() {
+
+		function scoreOrder(pLabels, pGroup) {
+		var vMax=0, vErr=0;
+		var vD = pLabels.length-1;
+		for(var i=vD; i >=0; i--) {
+		if(pGroup && pGroup!=pLabels[i].rG) return 0;
+		vErr += Math.abs(pLabels[i].sO - pLabels[i].rO);
+		vMax += Math.abs(vD);
+		vD = vD - 2;
+		}
+		return vMax>0 ? (vMax - vErr) / vMax : 0;
+		}
+
+			this.fMinPts = 0;
+			this.fMaxPts = this.fLabels.length;
+			this.fScorePts = Math.floor(scoreOrder(this.fLabels, this.fGroupsC.length-1) * this.fLabels.length);
+
+				this.fScorePts = 0 + (this.fScorePts-this.fMinPts) / (this.fMaxPts-this.fMinPts) * (1 - 0); 
+
+			this.fMinPts = 0;
+
+			this.fMaxPts = 1;
+
+	//alert("score:::::"+this.fMinPts+" - "+this.fScorePts+" - "+this.fMaxPts);
+var vScoreSession = "eval";
+	if(this.fScorePts != null) scServices.assmntMgr.setPts(this.fId, vScoreSession, this.fMinPts, this.fScorePts, this.fMaxPts);
+
+		this.refreshScoresFeedbacks();
+this.refreshResult();
+};
+		for(var i = this.fLabels.length - 1; i >=0; i--) scDragMgr.setDraggable(this.fLabels[i], true);
+		this.load(vLoadRespSession);
+		this.synch();
+this.fRespSession = null;
+
+		this.computeScore();
+
+		scServices.assmntMgr.commit();
+		break;
+	}
+
+		}
+	}catch(e){alert("failed:::"+e)};
+	},
+
+	closeSeq: function(){
+		var vForm = document.forms.LCEeieyAuaj5UVLhw7JVVe_AscoreDd_form;
+		switch(this.fCurSeq) {
+case "" : {
+		this.refreshResult("none");
+
+		break;
+	}
+
+		}
+		this.fCurSeq = null;
+	},
+	getOnLoadSeq:function() {
+
+	return "";
+	},
+
+	saveResp:function(pSession){
+		if(pSession==null) return;
+		var vLabel = this.fLabels[0];
+		var vStr = '[{"g":' + vLabel.rG + ',"offs":' + vLabel.rO + ',' + scDragMgr.saveLabelPos(vLabel) + '}';
+		for(var i=1, len=this.fLabels.length; i < len; i++) {
+			vLabel = this.fLabels[i];
+			vStr += ',{"g":' + vLabel.rG + ',"offs":' + vLabel.rO + ',' + scDragMgr.saveLabelPos(vLabel) + '}';
+		}
+		vStr+=']';
+		scServices.assmntMgr.setResponse(this.fId, pSession, "pos", vStr);
+	},
+	load:function(pSession){
+		var vStr = (pSession!=null) ? scServices.assmntMgr.getResponse(this.fId, pSession, "pos") : null;
+		for(var i=this.fGroupsC.length -1; i >=0; i--) {
+			var vGroup = this.fGroupsC[i];
+			for(var j=vGroup.length-1; j >=0; j--) vGroup[j].labelsToAdd = [];
+		}
+		if(vStr) {
+						var vList = scServices.dataUtil.deserialiseObjJs(vStr);
+			for(var i=0, len=this.fLabels.length; i < len; i++) {
+				var vLabelToAdd = vList[i];
+				vLabelToAdd.label = this.fLabels[i];
+				var vGroupC = this.fGroupsC[vLabelToAdd.g];
+				if(vGroupC.length == 1) vGroupC[0].labelsToAdd[vLabelToAdd.offs] = vLabelToAdd; 
+				else vGroupC[vLabelToAdd.offs].labelsToAdd.push(vLabelToAdd);
+			}
+		} else {
+						var vBasketC = this.fGroupsC[0];
+
+			for(var i=vBasketC.length-1; i >=0; i--) for(var j=0, vLen=vBasketC[i]._Labels.length; j < vLen; j++) vBasketC[i].labelsToAdd.push({label:vBasketC[i]._Labels[j]});
+
+		}
+		scDragMgr.repopulateContainers("LCEeieyAuaj5UVLhw7JVVe_AscoreDd");
+	},
+	synch:function(){
+		for(var i=this.fGroupsC.length -1; i >=0; i--) {
+			var vGroup = this.fGroupsC[i];
+			var vOffset = 0;
+			for(var j=0, vLenJ=vGroup.length; j < vLenJ; j++) {
+				var vItems = scDragMgr.getLabels(vGroup[j]);
+				var vLenK = vItems.length;
+								if(vLenK == 0) vOffset++;
+				else for(var k=0; k < vLenK; k++) {
+					vItems[k].rG = i;
+					vItems[k].rO = vOffset++;
+				}
+			}
+		}
+	},
+	onLoad: function(){
+	try{
+		var onChange = function() {
+LCEeieyAuaj5UVLhw7JVVe_AscoreDd.synch();
+LCEeieyAuaj5UVLhw7JVVe_AscoreDd.computeScore();
+LCEeieyAuaj5UVLhw7JVVe_AscoreDd.saveResp(LCEeieyAuaj5UVLhw7JVVe_AscoreDd.fRespSession);
+			scServices.assmntMgr.commit();
+		}
+		this.fLabels = [];
+		var vLabel, vC;
+scDragMgr.makeContainer("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N10"), vC = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N10")).setMode(vC, 'ordered', -1).setDragOverClass(vC, '');
+vLabel = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN10");
+		this.fLabels.push(vLabel);
+		vLabel.sO=0;
+vLabel.sG=1;
+scDragMgr.makeDraggableLabel("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+scDragMgr.makeContainer("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N14"), vC = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N14")).setMode(vC, 'ordered', -1).setDragOverClass(vC, '');
+vLabel = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN14");
+		this.fLabels.push(vLabel);
+		vLabel.sO=1;
+vLabel.sG=1;
+scDragMgr.makeDraggableLabel("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+scDragMgr.makeContainer("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N18"), vC = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N18")).setMode(vC, 'ordered', -1).setDragOverClass(vC, '');
+vLabel = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN18");
+		this.fLabels.push(vLabel);
+		vLabel.sO=2;
+vLabel.sG=1;
+scDragMgr.makeDraggableLabel("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+scDragMgr.makeContainer("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N1c"), vC = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N1c")).setMode(vC, 'ordered', -1).setDragOverClass(vC, '');
+vLabel = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN1c");
+		this.fLabels.push(vLabel);
+		vLabel.sO=3;
+vLabel.sG=1;
+scDragMgr.makeDraggableLabel("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+scDragMgr.makeContainer("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N20"), vC = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N20")).setMode(vC, 'ordered', -1).setDragOverClass(vC, '');
+vLabel = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN20");
+		this.fLabels.push(vLabel);
+		vLabel.sO=4;
+vLabel.sG=1;
+scDragMgr.makeDraggableLabel("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+scDragMgr.makeContainer("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N24"), vC = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N24")).setMode(vC, 'ordered', -1).setDragOverClass(vC, '');
+vLabel = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN24");
+		this.fLabels.push(vLabel);
+		vLabel.sO=5;
+vLabel.sG=1;
+scDragMgr.makeDraggableLabel("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", vLabel).setCallback(vLabel, onChange).setDragClass(vLabel, '');
+scDragMgr.makeContainer("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_S_N3c"), vC = sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_S_N3e")).setMode(vC, 'ordered', -1).setDragOverClass(vC, '');
+this.fGroupsC = [scDragMgr.getContainers("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_L")), scDragMgr.getContainers("LCEeieyAuaj5UVLhw7JVVe_AscoreDd", sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_R"))];
+		for(var i = this.fGroupsC[0].length-1; i >=0; i--) this.fGroupsC[0][i]._Labels = scDragMgr.getLabels(this.fGroupsC[0][i]);
+		this.initSeq(this.getOnLoadSeq()); 
+		scAssmntMgr.setMode(sc$("LCEeieyAuaj5UVLhw7JVVe_AscoreDd_A"));
+	}catch(e){console.log(e);}
+	},
+
+	onUnload: function(){
+		this.closeSeq();
+	},
+	refreshScoresFeedbacks : function(){
+
+	},
+	loadSortKey: "A",
+	unloadSortKey: "A"
+};
+
+scOnLoads[scOnLoads.length] = LCEeieyAuaj5UVLhw7JVVe_AscoreDd;
+scOnUnloads[scOnUnloads.length] = LCEeieyAuaj5UVLhw7JVVe_AscoreDd;
+/*]]>*/</script><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_A" style="display:none;"><div style="display: none;"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_L" class="ddBasketSol "><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N24"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N24"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN24" ></div></div></div><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N18"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N18"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN18" ></div></div></div><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N14"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N14"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN14" ></div></div></div><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N1c"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N1c"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN1c" ></div></div></div><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N10"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N10"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN10" ></div></div></div><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN30_N20"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_NN32_N20"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_LN20" ></div></div></div></div><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_R"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_S_N3c"><div id="LCEeieyAuaj5UVLhw7JVVe_AscoreDd_S_N3e" ></div></div></div></div></div><section class="hBk article result"><h2 class="hBk_ti"><span>Résultats du test</span></h2><div class="hBk_co "><div class="bkSolResOut"><script type="text/JavaScript">/*<![CDATA[*/
+var fYWOQ54laMbqZARFDJEJ8b_Ascore = {
+
+	fId : "fYWOQ54laMbqZARFDJEJ8b",
+	fCurSeq : null,
+	initSeq : function(pCodeSeq){
+	try {
+		if(pCodeSeq==null) return;
+		if(this.fCurSeq!=null) this.closeSeq();
+		this.fCurSeq = pCodeSeq;
+		switch(this.fCurSeq) {
+
+	case "score" : {
+scAssmntMgr.setMode(sc$("fYWOQ54laMbqZARFDJEJ8b_Ascore_N_score"), "visible");
+
+		this.computeScore = function(pInput, pIdx) {
+			this.fMinPts = 0;
+			this.fMaxPts = 0;
+			this.fScorePts = 0;
+			var vRate;
+
+		var vSubAssmnt = {fSession:"eval", compute:function(pParent, pId, pRate){
+			this.fMinPts = scServices.assmntMgr.getMinPts(pId, this.fSession)||0;
+			this.fScorePts = scServices.assmntMgr.getScorePts(pId, this.fSession)||0;
+			this.fMaxPts = scServices.assmntMgr.getMaxPts(pId, this.fSession)||1;
+
+			pParent.fMinPts += this.fMinPts;
+			pParent.fScorePts += this.fScorePts;
+			pParent.fMaxPts += this.fMaxPts;
+		}};
+
+		vSubAssmnt.compute(this, "or66RKx42xfM6aqCdTjTPf", 1);
+
+		vSubAssmnt.compute(this, "Kiw1UftSFokRCYTOrkKzX", 1);
+
+		vSubAssmnt.compute(this, "LCEeieyAuaj5UVLhw7JVVe", 1);
+var vScoreSession = "eval";
+			scServices.assmntMgr.setPts(this.fId, vScoreSession, this.fMinPts, this.fScorePts, this.fMaxPts);
+
+						this.refreshScoresFeedbacks();
+		}
+scServices.assmntMgr.setCompletionStatus(this.fId, "eval", "complete"); 
+if(window.location.protocol!="file:" && true) {
+this.computeScore();
+window.fMinPts = this.fMinPts;
+window.fScorePts = this.fScorePts;
+window.fMaxPts = this.fMaxPts;
+if(typeof parent.scormMgr != "undefined") parent.scormMgr.toggleSeen(null, true);
+
+	}
+
+	else {
+scAssmntMgr.setMode(sc$("fYWOQ54laMbqZARFDJEJ8b_Ascore_N_score"), "collapsed");
+
+	}
+
+		this.handleAssmntPts = function(pEvent){if(pEvent.fId=="or66RKx42xfM6aqCdTjTPf" || pEvent.fId=="Kiw1UftSFokRCYTOrkKzX" || pEvent.fId=="LCEeieyAuaj5UVLhw7JVVe" || false) this.computeScore();}
+		scServices.assmntMgr.addEventListener(this);
+		this.computeScore();
+		scServices.assmntMgr.commit();
+
+		break;
+	}
+
+		}
+	}catch(e){alert("failed:::"+e)};
+	},
+
+	closeSeq: function(){
+		var vForm = document.forms.fYWOQ54laMbqZARFDJEJ8b_Ascore_form;
+		switch(this.fCurSeq) {
+
+	case "score" : {
+
+		scServices.assmntMgr.removeEventListener(this);
+		this.computeScore();
+		scServices.assmntMgr.commit();
+
+		break;
+	}
+
+		}
+		this.fCurSeq = null;
+	},
+	getOnLoadSeq:function() {
+
+	return "score";
+	},
+
+	
+	refreshScoresFeedbacks : function(){
+
+		var vScoreNode = sc$("fYWOQ54laMbqZARFDJEJ8b_Ascore_SN47");
+
+		var vScore = (Math.round((this.fScorePts-this.fMinPts) / (this.fMaxPts-this.fMinPts) * 100) * 1)+ 0;
+if(vScore > 99 && true) {
+			vScoreNode.innerHTML = "<span>Vous avez bien répondu à toutes les questions !"  + "<\/span>";
+			vScoreNode.className = "answBest";
+		} else if(vScore > 49 && vScore <= 99 && true) {
+			vScoreNode.innerHTML = "<span>Vous avez obtenu... " + vScore + "% de bonnes réponses.<\/span>";
+			vScoreNode.className = "answGood";
+		} else if(vScore <= 49 && true) {
+			vScoreNode.innerHTML = "<span>Vous avez obtenu... " + vScore + "% de bonnes réponses.<\/span>";
+			vScoreNode.className = "answBad";
+		} else  {
+			vScoreNode.innerHTML = "";
+			vScoreNode.className = "";
+		}
+var vVal = (this.fScorePts - this.fMinPts) / (this.fMaxPts - this.fMinPts) * 100;
+
+	},
+	onLoad: function(){
+		this.initSeq(this.getOnLoadSeq());
+		scAssmntMgr.setMode(sc$("fYWOQ54laMbqZARFDJEJ8b_Ascore_A"));
+	},
+	onUnload: function(){
+		this.closeSeq();
+	},
+
+	loadSortKey: "B9897",
+	unloadSortKey: "B9897"};
+
+scOnLoads[scOnLoads.length] = fYWOQ54laMbqZARFDJEJ8b_Ascore;
+scOnUnloads[scOnUnloads.length] = fYWOQ54laMbqZARFDJEJ8b_Ascore;
+/*]]>*/</script><div id="fYWOQ54laMbqZARFDJEJ8b_Ascore_A" style="display:none;"><div class="infoScore"><div aria-live="polite" id="fYWOQ54laMbqZARFDJEJ8b_Ascore_N_score"><div id="fYWOQ54laMbqZARFDJEJ8b_Ascore_SN47"><span ></span></div></div><script>/*<![CDATA[*/scOnLoads.push({onLoad:function(){
+if (window.location.protocol=="file:") sc$("fileProtocolMsg").style.display="";
+}})/*]]>*/</script><p id="fileProtocolMsg" style="display:none;"><em>ATTENTION : Le résultat du test est impossible à calculer dans ce contexte (module stocké sur cet ordinateur).</em></p><div class="feedback " ></div></div></div></div><div class="resultE"><a target="_self" href="tat_1.html" class="btnAssmnt btnGotoSolE" title="Consulter les solutions..."><span>Consulter les solutions...</span></a><a class="btnAssmnt btnCloseE" href="javascript:void(0);" onclick="window.frameElement.hideSubWindow();">Quitter le test</a></div></div></section></div></div><div id="navigation" tabindex="-1"><hr class="hidden" ></hr><nav class="pageTurner" role="navigation"><ul><li><a rel="next" target="_self" href="tat_1.html" class="btnNav nextEval" title="Suivant (Solution d&apos;exercice)"><span>Suivant</span></a></li></ul></nav></div></div></main></div>
+		<script src="../skin/js/skin.js" ></script>
+		<script type="text/javascript">/*<![CDATA[*/tplMgr.init();scCodeMgr.init();scImageMgr.init();/*]]>*/</script></body></html>
